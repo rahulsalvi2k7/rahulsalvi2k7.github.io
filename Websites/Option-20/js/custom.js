@@ -106,14 +106,13 @@ $(document).ready(function()
 			{
 				items: 1,
 				loop: true,
-				autoplay:false,
+				autoplay:true,
+				autoplayTimeout:5000,
+				autoplayHoverPause:false,
 				animateOut: 'slideOutDown',
 				animateIn: 'flipInX',
 				dots:false,
-				nav:false,
-				autoplayTimeout:5000,
-				autoplaySpeed:800,
-				smartSpeed:800
+				nav:false
 			});
 
 			if($('.hero_slider_prev').length)
@@ -291,6 +290,9 @@ $(document).ready(function()
 
 			servicesSlider.owlCarousel(
 			{
+				autoplay:true,
+				autoplaySpeed:5,
+				autoplayTimeout:100,
 				loop: true,
 				center: true,
 				margin: 67,
