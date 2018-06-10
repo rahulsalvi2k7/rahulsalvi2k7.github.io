@@ -657,13 +657,31 @@
 
 								<!-- Reply Form -->
 
-								<form id="reply_form" action="contact-us-send.php">
+								<form id="reply_form" action="contact-us-send.php" method="POST">
 									<div>
-										<input id="reply_form_name" class="input_field reply_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
-										<input id="reply_form_email" class="input_field reply_form_email" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
-										<input id="reply_form_subject" class="input_field reply_form_subject" type="text" placeholder="Subject" required="required"
-										    data-error="Subject is required.">
-										<textarea id="reply_form_message" class="text_field reply_form_message" name="message" placeholder="Message" rows="4" required
+										<input 
+											id="reply_form_name" 
+											name="reply_form_name" 
+											class="input_field reply_form_name" 
+											type="text" 
+											placeholder="Name" 
+											required="required" 
+											data-error="Name is required.">
+										<input 
+											id="reply_form_email" 
+											name="reply_form_email" 
+											class="input_field reply_form_email" 
+											type="email" 
+											placeholder="E-mail" 
+											required="required" 
+											data-error="Valid email is required.">										
+										<textarea 
+											id="reply_form_message" 
+											class="text_field reply_form_message" 
+											name="message" 
+											placeholder="Message" 
+											rows="5" 
+											required
 										    data-error="Please, write us a message."></textarea>
 									</div>
 									<div>
