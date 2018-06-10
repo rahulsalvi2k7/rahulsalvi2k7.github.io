@@ -290,10 +290,10 @@ $(document).ready(function()
 
 			servicesSlider.owlCarousel(
 			{
-				autoplay:true,
-				autoplaySpeed:5,
-				autoplayTimeout:100,
 				loop: true,
+				autoplay:true,
+				autoplayTimeout:5000,
+				autoplayHoverPause:false,
 				center: true,
 				margin: 67,
 				stagePadding: 153,

@@ -616,7 +616,7 @@ section
 	width: 80.5%;
 	height: 100%;
 	padding-right: 170px;
-	padding-top: 51px;
+	padding-top: 90px;
 	float: left;
 }
 .hero_side_text h2
@@ -661,6 +661,36 @@ section
 .double_arrow:hover i
 {
 	color: #ff6b09;
+}
+
+.hero_slider_item > span > span
+{
+	color: #ff6b09;
+}
+
+.orange-text
+{
+	color: #ff6b09;
+}
+
+.purple-text
+{
+	color:#452b78;
+}
+
+.white-text
+{
+	color:#ffffff;
+}
+
+.small-text
+{
+	font-size: 0.7em;
+}
+
+.white-border
+{
+	border: 1px solid #fff;	
 }
 
 /*********************************
@@ -994,8 +1024,6 @@ section
 .services
 {
 	width: 100%;
-	padding-top: 130px;
-	padding-bottom: 184px;
 }
 .section_title h1
 {
@@ -1135,10 +1163,7 @@ section
 	transition: all 600ms ease;
 }
 .service_item_button
-{
-	position: absolute;
-	bottom: -94px;
-	left: 0;
+{	
 	border-color: #FFFFFF;
 	color: #FFFFFF;
 	visibility: hidden;
@@ -1148,6 +1173,7 @@ section
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
+	border: 1px solid #ffffff;
 }
 .service_item_button a
 {
@@ -1156,6 +1182,7 @@ section
 .service_item_button:hover
 {
 	background: #FFFFFF;
+	color: #452b78;
 }
 .service_item_button:hover a
 {
@@ -1270,7 +1297,7 @@ section
 {
 	padding-top: 120px;
 	padding-bottom: 130px;
-	background: #fafbfb;
+	background: #ffffff;
 }
 .features_row
 {
@@ -1306,6 +1333,30 @@ section
 .features_button_2
 {
 	display: none;
+}
+
+
+/*********************************
+10. Industry Segment
+*********************************/
+
+.industry_segment_item
+{
+	margin: 1em;
+	padding: 1em;
+	background-color:white;
+	color:#452b78;
+	text-align: center;
+	box-shadow: 0px 30px 59px rgba(24, 29, 33, 0.23);
+	word-wrap: none;		
+}
+
+.industry_segment_item:hover
+{
+	background-color:#452b78;
+	color:white;
+	text-align: center;
+	box-shadow: 0px 30px 59px rgba(24, 29, 33, 0.23);
 }
 
 /*********************************
