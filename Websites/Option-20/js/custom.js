@@ -343,6 +343,11 @@ $(document).ready(function()
 					servicesSlider.trigger('next.owl.carousel');
 				});
 			}
+
+			$('.owl-item').on('click', function(event){
+				window.location = event.target.dataset.href;
+			});
+
 		}
 	}
 
