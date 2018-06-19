@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script>
+        let canvas, canvasContext, ballPosition = { x: 20 }, framesPerSecond = 30, ballSpeed = 15;
+        window.onload = function () {
+            canvas = document.querySelector('#gameCanvas');
+            canvasContext = canvas.getContext('2d');
+            setInterval(function () {
+                move();
+                draw();
+            }, 1000 / framesPerSecond);
+        }
+
+        function move() {
+            if(ballPosition.x > canvas.width || ballPosition.x < 0){
+                ballSpeed = -ballSpeed;
+            }            
+            ballPosition.x = ballPosition.x + (ballSpeed);
+        }
+
+        function draw() {
+            canvasContext.fillStyle = 'black';
+            canvasContext.fillRect(0, 0, canvas.width, canvas.height);
+            canvasContext.fillStyle = 'white';
+            canvasContext.fillRect(0, 200, 10, 200);
+            canvasContext.fillStyle = 'red';
+            canvasContext.fillRect(ballPosition.x, 200, 25, 25);
+
+        }
+    </script>
+</body>
+
+</html>
