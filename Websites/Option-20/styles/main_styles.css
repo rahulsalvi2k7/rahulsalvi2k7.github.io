@@ -1306,8 +1306,8 @@ section
 
 .client-logo-item
 {
-	min-width: 200px;
-	min-height: 200px;
+	min-width: 300px;
+	min-height: 225px;
 	background-repeat: no-repeat;
 	background-position: center center;
 } 
