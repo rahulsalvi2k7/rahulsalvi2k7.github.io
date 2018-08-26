@@ -1306,8 +1306,9 @@ section
 
 .client-logo-item
 {
-	max-width: 150px;
-	max-height: 150px;
+	max-width: 200px;
+	max-height: 200px;
+	border: 1px solid #ccc;
 }
 
 /*********************************
