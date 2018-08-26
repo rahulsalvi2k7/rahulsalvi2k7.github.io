@@ -1304,13 +1304,12 @@ section
 8. Clients
 *********************************/
 
-/* .client-logo-item
+.client-logo-item
 {
-	max-width: 200px;
-	max-height: 200px;
-	border: 1px solid #ccc;
+	background-repeat: no-repeat;
+	background-position: center center;
 } 
-*/
+
 
 /*********************************
 8. Features
